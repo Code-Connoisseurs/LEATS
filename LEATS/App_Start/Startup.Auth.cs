@@ -74,9 +74,9 @@ namespace LEATS
             //   consumerKey: "XXX",
             //   consumerSecret: "XXX");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "3145935258819254",
+               appSecret: "a4769b9c8322043fc577abf60db36851");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
