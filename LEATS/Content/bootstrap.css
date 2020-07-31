@@ -4681,7 +4681,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     .navbar-brand:hover, .navbar-brand:focus {
         text-decoration: none;
     }
-
+/*navigation bar class*/
 .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4689,12 +4689,39 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
+    flex-direction: row; /*column>>row*/
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    margin: 30px 10px 30px 0px
 }
 
+
+/*for left menu items (Home, Contact, etc) block*/
+.nav.navbar-nav{
+    float: left;
+}
+.nav.navbar-nav li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px
+}
+.nav.navbar-nav li a{
+    color: white;
+    text-transform:uppercase;
+    font:bold;
+    font-size:larger;
+}
+
+.nav navbar-nav{
+    /*?????????????????????????????????????????????????????????????????*/
+}
+/*for Register/Login block*/
+ul.nav.navbar-nav.navbar-right{
+    float: right;
+}
+
+}
     .navbar-nav .nav-link {
         padding-right: 0;
         padding-left: 0;
