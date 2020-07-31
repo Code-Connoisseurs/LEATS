@@ -54,8 +54,8 @@ namespace LEATS
 
             //app.UseTwitterAuthentication(new TwitterAuthenticationOptions
             //{
-            //    ConsumerKey = "XXX",
-            //    ConsumerSecret = "XXX",
+            //    ConsumerKey = "XXXX",
+            //    ConsumerSecret = "XXXX",
 
             //    BackchannelCertificateValidator = new Microsoft.Owin.Security.CertificateSubjectKeyIdentifierValidator(new[]
             //    {
